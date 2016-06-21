@@ -7,7 +7,6 @@
     <title></title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="theme-color" content="#990000">
     <link rel="apple-touch-icon" href="apple-touch-icon.png">
     <link rel="icon" href="favicon.ico">
     <link rel="stylesheet" href="css/normalize.min.css">
@@ -42,8 +41,19 @@
         }
         
         body{
-            background-image: url(vibrating_cat.gif-c200);
-            background-repeat: repeat-y;
+            background-image: url(background.png);
+            background-size: fit;
+        }
+        .well{
+            background-color: white;
+            outline-style: solid;
+            outline-color: #990000;
+            outline-width: 5px;
+            text-align: center;
+        }
+        #navbar{
+            float: right;
+            app
         }
     </style>
 </head>
@@ -61,7 +71,7 @@
                 </div>
             </a>
 
-            <nav>
+            <nav id="navbar">
                 <ul>
                     <li><a href="http://buyandregret.com/reviews">Reviews</a></li>
                     <li><a href="http://buyandregret.com/playing">Playing</a></li>

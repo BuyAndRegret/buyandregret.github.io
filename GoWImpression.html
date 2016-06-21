@@ -23,8 +23,9 @@
     <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
     <style>
         .bigImage {
-            width: 500px;
+            width: 300px;
             height: auto;
+            align-content: center; 
         }
         
         .well {
@@ -62,6 +63,32 @@
             background-image: url(background.png);
             background-size: cover;
         }
+        
+        .well {
+            background-color: white;
+            outline-style: solid;
+            outline-color: #990000;
+            outline-width: 5px;
+        }
+        
+        #navbar {
+            float: right;
+        }
+        #main{
+            align-content: center;
+        }
+                .well {
+            background-color: white;
+            outline-style: solid;
+            outline-color: #990000;
+            outline-width: 5px;
+            align-content: center;
+            text-align: 30px;
+        }
+        
+        #navbar {
+            float: right;
+        }
     </style>
 </head>
 
@@ -89,9 +116,9 @@
     </div>
 
     <div class="main-container">
-        <div class="main wrapper clearfix">
+        <div class="main wrapper clearfix" id="main">
             <article>
-                <div class="well container-fluid">
+                <div class="well">
                     <div class="img well">
                         <a class="text-center" target="_blank" href="#">
                             <img class="bigImage" src="http://cdn.images.dailystar.co.uk/dynamic/184/photos/112000/Gears-of-War-4-Multiplayer-Beta-490112.jpg"
